@@ -1,0 +1,40 @@
+.welcome-section {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #282c34, #61dafb);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-content {
+  max-width: 600px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.welcome-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.h2 {
+    color: green;
+    border-radius: 4rem;
+    font-size: 10cm;
+}
